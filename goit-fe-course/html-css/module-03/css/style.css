@@ -15,7 +15,7 @@ body {
     padding: 60px 38px 45px 38px;
 }
 .heading, .title {
-    color: #263555;
+    color: #2f3855;
     font-family: 'Pathway Gothic One';
     font-size: 25px;
     font-weight: 150;
@@ -28,14 +28,14 @@ body {
     padding-top: 35px;
 }
 .caption {
-    color: #192c57;
+    color: #2f3855;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 150;
     padding: 27px 0px 16px 0px;
 }
 .text {
-    color: #8a8f8f;
+    color: #505151;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding-right: 75px;
@@ -49,6 +49,7 @@ p {
 .line{
     height: 1px;
     width: 406px;
+    color: #8a8f8f;
     background-color: #dedbdb;
     margin-top: 50px;
 }
@@ -62,7 +63,7 @@ p {
     margin: 44px 0px 0px 0px ;
 }
 li {
-    color: #263555;
+    color: #2f3855;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     list-style: none;
