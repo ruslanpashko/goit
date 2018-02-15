@@ -15,7 +15,7 @@ body {
     padding: 60px 38px 45px 38px;
 }
 .heading, .title {
-    color: #2f3855;
+    color: #263555;
     font-family: 'Pathway Gothic One';
     font-size: 25px;
     font-weight: 150;
@@ -28,32 +28,30 @@ body {
     padding-top: 35px;
 }
 .caption {
-    color: #2f3855;
+    color: #263555;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 150;
     padding: 27px 0px 16px 0px;
 }
 .text {
-    color: #505151;
+    color: #4e5050;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    padding-right: 75px;
 }
 p {
-    color: #8a8f8f;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
 }
-.line{
+.line {
     height: 1px;
     width: 406px;
-    color: #8a8f8f;
+    color: #4e5050;
     background-color: #dedbdb;
     margin-top: 50px;
 }
-.specification{
+.specification {
     display: inline-block;
     margin: 44px 45px 0px 20px;
 }
@@ -63,7 +61,7 @@ p {
     margin: 44px 0px 0px 0px ;
 }
 li {
-    color: #2f3855;
+    color: #263555;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     list-style: none;
