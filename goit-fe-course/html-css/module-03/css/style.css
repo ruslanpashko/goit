@@ -11,33 +11,34 @@ body {
 .wrapper {
     width: 480px;
     background-color: white;
-    margin: 70px auto 100px;
-    padding: 60px 38px 45px 38px;
+    margin: 68px auto 83px;
+    padding: 59px 37px 44px 37px;
 }
 .heading, .title {
     color: #263555;
     font-family: 'Pathway Gothic One';
     font-size: 25px;
-    font-weight: 150;
+    font-weight: 300;
     text-transform: uppercase;
 }
 .title {
-    padding-top: 52px;
+    padding-top: 53px;
 }
 .img {
-    padding-top: 35px;
+    padding-top: 32px;
 }
 .caption {
     color: #263555;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: 150;
-    padding: 27px 0px 16px 0px;
+    font-weight: 500;
+    padding: 28px 0px 43px 0px;
 }
 .text {
     color: #4e5050;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    font-weight: 500;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -46,19 +47,19 @@ p {
 }
 .line {
     height: 1px;
-    width: 406px;
+    width: 407px;
     color: #4e5050;
     background-color: #dedbdb;
-    margin-top: 50px;
+    margin-top: 54px;
 }
 .specification {
     display: inline-block;
-    margin: 44px 45px 0px 20px;
+    margin: 40px 50px 0px 20px;
 }
 .detail {
     display: inline-block;
     vertical-align: top;
-    margin: 44px 0px 0px 0px ;
+    margin: 40px 0px 0px 0px;
 }
 li {
     color: #263555;
