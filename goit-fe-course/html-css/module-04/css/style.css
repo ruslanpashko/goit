@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+.wrapper {
+    max-width: 1117px;
+    padding: 43px 0 80px 0;
+    margin: auto;
+    background-color: #fff;
+}
+
+.logo, .menu-item, .category, h2 {
+    text-transform: uppercase;
+}
+
+#letter-m, .menu-link:hover {
+    color: #1abc9c;
+}
+
+#letter-m {
+    font-weight: 900;
+}
+
+.logo, h2, h6, .article-text {
+    color: #555252; 
+} 
+
+.logo {
+    float: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.menu {
+    float: right;
+    margin-top: 9px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 16.7px;
+}
+
+.menu-item:first-child {
+    margin-left: 0px;
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.menu-link {
+    display: block;
+    padding-left: 16.225px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+
+.header {
+    margin-bottom: 111px;
+}
+
+h2.products:after {
+    content: "";
+    display: block;
+    height: 7px;
+    width: 164px;
+    background-color: #1abc9c;
+    margin: 32px auto 92px auto;
+}
+
+.category, .price {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-image {
+    display: block;
+}
+
+.shop-item {
+    width: 22.83%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.caption {
+    height: 40px;
+    /* margin: -4px; */
+}
+
+.category {
+    background-color: #323232;
+    color: #ffffff;
+    width: 80%;
+    height: 100%;
+    padding: 13.5px;
+    text-align: left;
+    line-height: 100%;
+}
+
+.price {
+    background-color: #8c8c8c;
+    color: #ffffff;
+    margin-left: -4px;
+    width: 20%;
+    height: 100%;
+    padding: 13.5px;
+    text-align: center;
+    line-height: 100%;
+}
+
+.gallery {
+    margin-bottom: 105px;
+    
+}
+
+.shop-item:nth-child(4n+4) {
+    margin-right: 0px;
+}
+
+.shop-item:hover .category {
+    background-color: #1abc9c;
+}
+
+.shop-item:hover .price {
+    background-color: #7fd9c7;
+}
+
+.products, .news {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2.news:after {
+    content: "";
+    display: block;
+    height: 7px;
+    width: 164px;
+    background-color: #4ec6ab;
+    margin: 32px auto 81px auto;
+}
+
+h6, .article-text {
+    text-align: left;
+    font-family: 'OpenSans', sans-serif;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h6:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 136px;
+    background-color: #4ec6ab;
+    margin: 11px 0 29px 0;
+}
+
+.articles {
+    width: 31.33%;
+    float: left;
+    margin-right: 30px;
+}
+
+.articles:last-of-type {
+    margin-right: 0;
+}
+
+.article-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.read-more-link {
+    background-color: #4ec6ab;
+    color: #fff;
+    font-size: 15.8px;
+    font-weight: 300;
+    line-height: 26px;
+    display: block;
+    padding: 12.5px 0 12.5px 0;
+    border-radius: 3px;
+}
+
+.read-more {
+    width: 45.4%;
+    height: 51px;
+    text-align: center;
+}
