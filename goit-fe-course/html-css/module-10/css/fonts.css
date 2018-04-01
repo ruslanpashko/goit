@@ -1,0 +1,15 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Regular.woff); }
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.woff); }
+
+@font-face {
+  font-family: Kaushan Script;
+  src: url(../fonts/KaushanScript-Regular.woff); }
