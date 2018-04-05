@@ -27,13 +27,13 @@ a{
     margin: auto;
 }
 
-.header{
-    display: flex; 
+header{
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 38px;
-    height: 200px; 
+    height: 200px;
 }
 
 .logo{
@@ -47,13 +47,13 @@ nav{
 }
 
 .nav{
-    display:flex; 
+    display:flex;
     justify-content: center;
 }
 
 .nav-item{
     padding: 10px 19px;
-} 
+}
 
 .nav-link{
     color:  #ffffff;
@@ -113,7 +113,7 @@ nav{
 .list-partner{
     margin: auto;
     width: 217px;
- 
+
 }
 
 .partner{
@@ -161,22 +161,22 @@ nav{
         padding-top: 38px;
         padding-bottom: 272px;
     }
-    
-    .conteiner{
-        width: 660px;  
-    } 
 
-    .header{
+    .conteiner{
+        width: 660px;
+    }
+
+    header{
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; 
+        align-items: center;
         margin: auto;
-        height: 100%; 
+        height: 100%;
         margin-bottom: 160px;
     }
 
     nav{
-        width: 30%;  
+        width: 30%;
     }
 
     .main-title{
@@ -189,7 +189,7 @@ nav{
         margin-bottom: 34px;
     }
 
-    .main-button{ 
+    .main-button{
         padding: 0 215px;
     }
 
@@ -203,7 +203,7 @@ nav{
         justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
-     
+
     }
 
     .partner{
@@ -213,7 +213,7 @@ nav{
 
      .partner:nth-child(2n+1){
         margin-bottom: 50px;
-    } 
+    }
 
     .partner-button{
         margin-top: 30px;
@@ -232,7 +232,7 @@ nav{
         width: 940px;
     }
 
-    .header{
+    header{
         margin-bottom: 154px;
     }
 

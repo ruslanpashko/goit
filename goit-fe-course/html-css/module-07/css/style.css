@@ -162,10 +162,7 @@ color: #fed136;
 }
 
 .contacts{
-    background-image: url("../img/bcg.png");
-    background-repeat: no-repeat;
-    background-position: center center; 
-    background-size: cover; 
+    background: #222222 url('../img/map.png') no-repeat center right;
     padding: 110px 0;
 }
 
@@ -193,9 +190,15 @@ color: #fed136;
 }
 
 ::placeholder{
-    color: #ccc;
+    color: #bbbbbb;
 }
-
+input{
+    outline: none;
+}
+input:required:focus,
+textarea:required:focus{
+    border: 1px solid #ff0000;
+}
 .input-info, .comment-info{
     border-radius: 2px;
     border: 1px solid #ccc;

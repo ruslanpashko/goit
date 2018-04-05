@@ -17,7 +17,7 @@ a:hover{
     padding-bottom: 8.625rem;
 }
 
-.header{
+header{
       margin-bottom: 2.375rem; 
 }
 
@@ -155,7 +155,7 @@ a:hover{
        padding-bottom: 17rem;
     } 
     
-    .header{
+    header{
         margin-bottom: 10rem;
     }
 
@@ -163,7 +163,7 @@ a:hover{
         margin-bottom: 0;
     }
 
-    .main-title, .main-button-link, .partner-button-link{
+    .main-title{
         width: 100%;
     }
 
@@ -183,14 +183,16 @@ a:hover{
         margin-top: 1.875rem;
     }
 }
-
+@media (min-width:960px){
+    
+}
 @media(min-width:1200px){
     .wrapper-top{
         padding-top: 2.875rem;
         padding-bottom: 14.63rem;
     }
    
-    .header{
+    header{
         margin-bottom: 9.625rem;
     }
     

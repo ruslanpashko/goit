@@ -66,17 +66,16 @@ img {
   line-height: 17px;
 }
 
-.nav-list a:hover,.nav-list a:focus {
-  width: 100%;
+.nav-list .nav-list-item:hover a,.nav-list .nav-list-item:focus a{
   color: #f38181;
   transition-duration: 200ms;
 }
 
 .nav-list-item::after {
   display: block;
-  width: 50px;
+  width: 100%;
   height: 3px;
-  background-color:rgb(243, 129, 129); 
+  background-color:#f38181;
   content: '';
   margin: auto;
   opacity: 0;
@@ -87,7 +86,7 @@ img {
  transition-duration: 200ms;
 }
 
-.services >h3 {
+.services > h2 span {
   font-family: "Kaushan Script";
   font-size: 24px;
   line-height: 28px;
@@ -185,7 +184,7 @@ img {
   color: #999999;
 }
 
-.team > h3 {
+.team > h2 span {
   font-family: "Kaushan Script";
   font-size: 24px;
   line-height: 28px;
@@ -258,14 +257,13 @@ img {
   z-index: 5;
 }
 
-.card-hover:hover {
-  transform: translate(-10px, -10px);
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
 .image-hover:hover img{
   transform: translate(-10px, -10px);
+  transition-duration: 200ms;
+}
+.image-hover:hover .card-hover{
+  transform: translate(-10px, -10px);
+  opacity: 1;
   transition-duration: 200ms;
 }
 
@@ -312,7 +310,7 @@ img {
 }
 
 .socials li:hover  {
-  background-color:rgba(238,137,137,0.9);
+  background-color:rgba(149, 225, 211, 0.9);
   transition-duration: 200ms;
 }
 
@@ -356,7 +354,7 @@ footer>ul {
   flex-direction: row;
   justify-content: flex-start;
   list-style: none;
-  padding-left: 38px;
+  padding-left: 0px;
 }
 .author>li {
   color: #333333;
@@ -371,7 +369,7 @@ footer>ul {
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-  padding:10px 40px 10px 0;
+  padding:10px 0px 10px 0;
 }
 input {
   width: 230px;
@@ -418,4 +416,15 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+input{
+  outline: none;
+  text-indent: 10px;
+}
+input:required:focus{
+  border:1px solid #ff0000;
+}
+
+figure{
+  margin:0;
 }
