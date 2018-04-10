@@ -1,0 +1,527 @@
+@import url(normalize.css);
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kaushan Script;
+  src: url(../fonts/KaushanScript-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/Layer-15-min.png);
+  background-position: center;
+  background-size: cover;
+}
+
+body header .container {
+  width: 1247px;
+  margin: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body header .container .nav_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 145px;
+}
+
+body header .container .nav_wrap .logo_link {
+  text-decoration: none;
+  width: 86px;
+  height: 23px;
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+body header .container .nav_wrap {
+  color: #fce38a;
+}
+
+body header .container .nav_wrap nav .menu_list {
+  display: flex;
+  position: relative;
+  width: 620px;
+  list-style: none;
+  padding-top: 15px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item .menu_link {
+  width: 60px;
+  height: 10px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item .menu_link:hover {
+  color: #fce38a;
+  transition: 0.2s;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item .menu_link::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 40px;
+  width: 50px;
+  height: 3px;
+  background-color: #fce38a;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item:hover .menu_link::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+  width: 50px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item:nth-child(2) .menu_link::after {
+  width: 60px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item:nth-child(4) .menu_link::after {
+  width: 45px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item:nth-child(5) .menu_link::after {
+  width: 67px;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item:hover .icon use {
+  fill: #fce38a;
+  transition: 0.2s;
+}
+
+body header .container .nav_wrap nav .menu_list .menu_item .icon {
+  width: 17px;
+  height: 17px;
+  fill: #fff;
+}
+
+body header .header_container {
+  margin-bottom: 80px;
+}
+
+body header .header_container .header_slogan {
+  margin-top: 192px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body header .header_container .header_subtitle {
+  width: 520px;
+  height: 87px;
+  color: #ffffff;
+  font-family: Kaushan script, cursive;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body header .header_container .header_title {
+  width: 802px;
+  height: 248px;
+  color: #ffffff;
+  font-family: Montserrat-Bold;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 140px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+
+body header .header_container .header-button {
+  display: block;
+  width: 160px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+body main .container {
+  width: 1247px;
+  margin: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body main .container .icon-block {
+  padding-bottom: 95px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+body main .container .icon-block .section-text {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body main .container .icon-block .section-text:after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 115px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  opacity: 0;
+}
+
+body main .container .icon-block .section-text:after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+body main .container .icon-block .section-text .section-subtitle {
+  font-family: Kaushan script, cursive;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+body main .container .icon-block .section-text .section-title {
+  font-family: Montserrat-Bold;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 9px;
+}
+
+body main .container .icon-block .article-portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+}
+
+body main .container .icon-block .article-portfolio .article-item {
+  display: flex;
+  width: 381px;
+  padding-bottom: 104px;
+}
+
+body main .container .icon-block .article-portfolio .article-item .article-info .article-item-title {
+  font-family: Montserrat-Bold;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+body main .container .icon-block .article-portfolio .article-item .article-info .article-text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999999;
+}
+
+body main .container .icon-block .article-portfolio .article-item .article-icon {
+  padding-right: 28px;
+  padding-bottom: 40px;
+}
+
+body main .container .profile-portfolio .section-text {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body main .container .profile-portfolio .section-text:after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 115px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  opacity: 0;
+}
+
+body main .container .profile-portfolio .section-text:after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+body main .container .profile-portfolio .section-text .section-subtitle {
+  font-family: Kaushan script, cursive;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+body main .container .profile-portfolio .section-text .section-title {
+  font-family: Montserrat-Bold;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 9px;
+}
+
+body main .container .profile-portfolio .title {
+  display: inline-block;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #999999;
+  padding-left: 122px;
+  padding-right: 127px;
+  padding-top: 79px;
+}
+
+body main .container .profile-portfolio .about-profile {
+  display: flex;
+  flex-direction: row;
+  margin: 35px 0 90px;
+  justify-content: space-between;
+  padding-top: 57px;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 380px;
+  height: 470px;
+  background-color: #95e1d3;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item:hover .profile-img {
+  position: relative;
+  opacity: 0.1;
+  transition: all 0.5s ease;
+  bottom: 10px;
+  right: 10px;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item:hover > .slasher {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher {
+  opacity: 0;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #f38181, #fce38a);
+  transition: all 0.5s ease;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 1;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item {
+  margin: 1px;
+  height: 55px;
+  width: 55px;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item:hover {
+  background-color: #95e1d3;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item .social-icon-link {
+  display: inline-block;
+  margin: 0 -0.5px;
+  width: 56px;
+  height: 58px;
+  background-color: #fce38a;
+  fill: #f38181;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item .social-icon-link:hover {
+  background-color: #f38181;
+  transition: 0.3s;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item .social-icon {
+  background-color: #fce38a;
+  width: 27px;
+  height: 27px;
+  margin: 14px;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item:hover .social-icon {
+  background-color: #f38181;
+  transition: 0.3s;
+}
+
+body main .container .profile-portfolio .about-profile figure .profile-item .slasher .social-icon-block .social-icon-item:hover .social-icon use {
+  fill: #ffffff;
+  transition: 0.3s;
+}
+
+body main .container .profile-portfolio .about-profile figure figcaption {
+  display: flex;
+  flex-direction: column;
+}
+
+body main .container .profile-portfolio .about-profile figure figcaption .profile-name {
+  text-align: center;
+  padding: 30px 0 15px 0;
+  font-family: Montserrat-Bold;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+body main .container .profile-portfolio .about-profile figure figcaption .profile-job {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  color: #999999;
+}
+
+body footer {
+  width: 1238px;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px auto;
+}
+
+body footer .container {
+  width: 1247px;
+  margin: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body footer .container .footer_wrap {
+  display: inline-flex;
+  width: 1180px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+body footer .container .footer_wrap .copyright {
+  width: 300px;
+  height: 14px;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 27px;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+body footer .container .footer_wrap .copyright .footer_link {
+  text-decoration: none;
+  color: #f38181;
+}
+
+body footer .container .footer_wrap input {
+  width: 210px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  padding-left: 15px;
+  margin-right: -58px;
+}
+
+body footer .container .footer_wrap input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  font-style: normal;
+  color: #ffffff;
+  font-family: montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+body footer form *::-webkit-input-placeholder {
+  color: #dddddd;
+  opacity: 1;
+}
